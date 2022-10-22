@@ -1,0 +1,12 @@
+* Title: Simple circuit made with battery and a resistor
+
+Vin a 0 5V
+R1 a 0 10
+
+.control
+
+op *Compute operating point (current and voltage)
+
+print all
+
+.endc
