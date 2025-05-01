@@ -1,0 +1,12 @@
+* Title: Simple circuit that illustrate how to perform the operating point simulation and show the ohm low.
+
+Vin a 0 30V
+R1 a 0 5k
+
+.control
+
+op *Compute operating point (current and voltage)
+
+print all
+
+.endc
